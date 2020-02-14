@@ -1,0 +1,5 @@
+<div class="container">
+    <app-header></app-header>
+    <app-post-principal [post]="postPrincipal"></app-post-principal>
+    <app-post-secundario (postLido)="post($event)" [post]="postsSecundario"></app-post-secundario>
+</div>
